@@ -1,0 +1,21 @@
+.container{
+    background-color: aquamarine;
+    display: flex;
+    gap:2rem;
+    font-size: xx-large;
+    padding: 5%;
+
+
+}
+.one{
+    background-color: blanchedalmond;
+    color: brown;
+}
+.two{
+    background-color: aquamarine;
+    color: darksalmon;
+}
+.three{
+    background-color: chartreuse;
+    color: chocolate;
+}
