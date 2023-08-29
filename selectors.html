@@ -1,0 +1,35 @@
+<html>
+   <head>
+    <title>selectors </title>
+    <style>
+        div p{
+            background-color: aquamarine;
+        }
+        div>p{
+            color: darkred;
+        }
+        div + p{
+            background-color: blue;
+        }
+        div ~ p{
+            font-size: large;
+        }
+    </style>
+   </head>
+
+<body>
+    <div>
+      <p>this ia a space combinators</p> 
+      <p>this is also a space combinators</p>
+    </div>
+    <p>this is an adjascent sibling selector</p>
+    <p>this is another one
+    </p>
+
+   <section>
+        <p>its not general sibling selector</p>
+</section>
+    
+
+</body>
+</html>
