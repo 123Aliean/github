@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: chartreuse;
+            text-align: center;
+            
+        }
+        h1,h2,h3{
+            color: red;
+        }
+        label {
+            margin: 10px;
+        }
+        input {
+            margin-top: 10px;
+        }
+        .education{
+            margin-top: 10px;
+        }
+        button{
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        #address{
+            padding: 50px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/66971901f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>personal Details</h1>
+    <form>
+        
+        <label for="name">Name :</label>
+        <input type="text" placeholder="enter name" required ><br>
+        <label for="password">password :</label>
+        <input type="text" placeholder="enter password" required ><br>
+        <label for="email-id"> E-mail-id :</label>
+        <input type="text" placeholder="enter ur email" required ><br>
+        <label for="gender">gender :</label>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender choice" value="choice-1">
+        <label for="gender"> Female</label>
+        <input type="radio" name="gender choice" value="choice-2"><br>
+
+
+        <label for="contact info"> contact# :</label>
+        <input type="text" placeholder="ph number" required>
+
+        <h2>Educational Qualification</h2>
+        <div class="education">
+
+        <label for="education">Degree :</label>
+        <select name="Degree">
+        <option>select group</option>
+        <option>BE</option>
+        <option>BSc</option>
+        <option>BCa</option>
+        <option>MSc</option>
+        <option>MBA</option>
+        <option>MCA</option>
+        <option>Mcom</option>
+        <option>Ma</option>
+</select>
+</div><br>
+      
+       <label for="branches">Engineering :</label>
+       <select name="branches">
+        <option>cs</option>
+        <option>IT</option>
+        <option>EC</option>
+        <option>EEE</option>
+        <option>civil</option>
+        <option>mechanical</option>
+
+       </select><br>
+       
+       <label for="Hobbies">Hobbies :</label>
+       <label>playing chess</label>
+       <input type="radio" name="hobbies choice" value="choice-1">
+       <label>Reading Books</label>
+       <input type="radio" name="hobbies choice" value="choice-2">
+
+       <h3>Address</h3>
+
+       <input type="text" id="address"><br>
+
+       <label for="adding resume">attach resume</label>
+       <input type="file" name="file name"><br>
+
+       <button type="submit"> Submit <i class="fa-sharp fa-solid fa-forward"></i></button>
+
+
+
+       
+
+
+        
+
+
+
+    </form>
+    
+</body>
+</html>
