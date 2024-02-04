@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>descending order</title>
+    </head>
+    <body>
+        <script>
+            function descendingsort(arr){
+                for(i=0; i<arr.length; i++){
+                    for(j=1+i; j<arr.length; j++){
+                        if(arr[i]<arr[j]){
+                            var temp=arr[i];
+                            arr[i]=arr[j];
+                            arr[j]=temp;
+                        }
+                    }
+                }
+            }
+           var myArray=[12, 67, 54, 9, 1];
+            descendingsort(myArray);
+            console.log(myArray);
+        </script>
+    </body>
+</html>

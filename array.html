@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array-max</title>
+    </head>
+    <body>
+        <script>
+           
+const myArray = [12, 45, 67, 23, 9];
+
+
+let maxValue = myArray[0];
+
+
+for (let i = 1; i < myArray.length; i++) {
+  
+  if (myArray[i] > maxValue) {
+    
+    maxValue = myArray[i];
+  }
+}
+
+
+console.log("The largest value in the array is: " + maxValue);
+
+        </script>
+    </body>
+</html>
